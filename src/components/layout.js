@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Banner from "../components/Banner"
+// You can import CSS too!
+import './site.css'
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>

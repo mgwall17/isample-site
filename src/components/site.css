@@ -1,0 +1,18 @@
+/* 
+  **This solution is, I think, the simplest one that gets the job done.***
+
+  However, because of my limited knowledge with MDX and images, I'm unsure if 
+  its what a seasoned Gatsby-with-MDX pro would recommend doing, but it's 
+  certainly not hurting anything and it saves us from  GraphQL image queries 
+  (which in my opinion are real pains-in-the-butt) unless you truly need all the 
+  extra functionality.
+
+  NOTE: Call this file whatever you want and move it wherever you want! Just make sure its 
+  imported correctly in your layout.js file and you'll be good to go. 
+  
+  Add whatever additional style rules you'd like, too! 
+*/
+
+.thumbnail {
+  max-width: 200px;
+}
